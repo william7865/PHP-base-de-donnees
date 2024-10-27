@@ -15,7 +15,7 @@ if($userSelect){ ?>
 <form action="index.php" method="POST">
   <input type="hidden" name="id" value="<?=$userSelect['id']?>">
   <input type="hidden" name="suppr" value="1">
-  <input type="submit" value="La suppression st définitive">
+  <input type="submit" value="La suppression est définitive">
 </form>
 <?php
 }

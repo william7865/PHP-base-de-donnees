@@ -14,7 +14,7 @@
 if($categorieSelect){ ?>
 <form action="categories.php" method="POST">
   <input type="hidden" name="id" value="<?=$categorieSelect['id']?>">
-  <input type="titre" name="titre" id="nom" placeholder="titre" value="<?=$produitSelect['titre']?>">
+  <input type="titre" name="titre" id="nom" placeholder="titre" value="<?=$categorieSelect['titre']?>">
   <input type="submit" value="envoyer">
 </form>
 <?php

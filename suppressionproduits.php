@@ -15,7 +15,7 @@ if($produitSelect){ ?>
 <form action="produits.php" method="POST">
   <input type="hidden" name="id" value="<?=$produitSelect['id']?>">
   <input type="hidden" name="suppr" value="1">
-  <input type="submit" value="La suppression st définitive">
+  <input type="submit" value="La suppression est définitive">
 </form>
 <?php
 }
