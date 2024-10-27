@@ -1,25 +1,18 @@
-/* Reset de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Style du header principal */
 header {
-    background-color: #2d3436; /* Couleur de fond sombre pour un style professionnel */
-    color: #ffffff; /* Texte blanc pour le contraste */
+    background-color: #2d3436; 
+    color:white; 
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 4px solid #0984e3; /* Ligne de séparation avec une couleur d'accent */
+    border-bottom: 4px solid #0984e3;
 }
 
 header h1 {
     font-size: 1.8em;
     font-weight: 600;
-    color: #74b9ff; /* Couleur légèrement différente pour le titre */
+    color: #74b9ff;
 }
 
 /* Style de la navigation */
@@ -45,8 +38,8 @@ nav ul li a {
 
 /* Style pour le hover */
 nav ul li a:hover {
-    background-color: #74b9ff; /* Couleur d’accent pour l'interaction */
-    color: #2d3436; /* Inverse les couleurs sur le hover */
+    background-color: #74b9ff;
+    color: #2d3436;
 }
 
 /* Responsive: centrer les éléments en petits écrans */

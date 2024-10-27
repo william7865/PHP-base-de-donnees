@@ -66,5 +66,6 @@
     echo "<p>Pas d'utilisateurs inscrit</p>";
   }
 ?>
+<?php include_once "footer.php";?>
 </body>
 </html>

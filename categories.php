@@ -50,5 +50,6 @@
     echo "<p>Pas de catégorie inscrite</p>";
   }
 ?>
+<?php include_once "footer.php";?>
 </body>
 </html>
