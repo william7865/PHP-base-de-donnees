@@ -79,12 +79,12 @@ form input[type="submit"] {
     font-size: 0.9em; 
 }
 
-/* Style au survol du bouton de soumission */
+/* Style au survol du bouton Envoyer */
 form input[type="submit"]:hover {
     background-color: #74b9ff; 
 }
 
-/* Style lors de l'activation du bouton de soumission */
+/* Style lors de l'activation du bouton Envoyer */
 form input[type="submit"]:active {
     transform: scale(0.95); 
 }
