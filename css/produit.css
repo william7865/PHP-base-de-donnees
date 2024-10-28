@@ -1,11 +1,8 @@
-/* Reset de base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Style général de la page */
 body {
     font-family: Arial, sans-serif; 
     background-color: #f1f2f6; 
@@ -14,21 +11,18 @@ body {
     line-height: 1.6; 
 }
 
-/* Style pour le titre principal */
 h1 {
     text-align: center;
     color: #0984e3;
     margin-bottom: 20px;
 }
 
-/* Style pour le sous-titre des catégories */
 h2 {
     font-size: 1.4em;
     color: #0984e3;
     margin-top: 20px;
 }
 
-/* Style pour le sous-titre des produits */
 h3 {
     font-size: 1.2em;
     color: #2d3436;
@@ -79,12 +73,10 @@ form input[type="submit"] {
     font-size: 0.9em; 
 }
 
-/* Style au survol du bouton Envoyer */
 form input[type="submit"]:hover {
     background-color: #74b9ff; 
 }
 
-/* Style lors de l'activation du bouton Envoyer */
 form input[type="submit"]:active {
     transform: scale(0.95); 
 }
@@ -110,19 +102,16 @@ td {
     border-bottom: 1px solid #ced6e0; 
 }
 
-/* Style pour les liens d'édition et de suppression dans le tableau */
 a {
     color: #0984e3; 
     text-decoration: none; 
     font-weight: 500; 
 }
 
-/* Style au survol des liens dans le tableau */
 a:hover {
     text-decoration: underline; 
 }
 
-/* Style pour les paragraphes des produits */
 .product p {
     margin: 5px 0; 
 }
