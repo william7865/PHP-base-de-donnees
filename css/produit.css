@@ -60,7 +60,7 @@ form input[type="number"] {
     border-radius: 4px; 
 }
 
-/* Style pour le bouton de soumission */
+/* Style pour le bouton Envoyer*/
 form input[type="submit"] {
     background-color: #0984e3; 
     color: #ffffff; 

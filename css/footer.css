@@ -6,7 +6,6 @@
     color:white;
     height: 50px;
 }
-/* Responsive: centrer les éléments en petits écrans */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
